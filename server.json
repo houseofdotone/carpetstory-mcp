@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.houseofdotone/carpetstory",
+  "title": "Carpetstory",
+  "description": "Search hand-knotted rugs made to order in Jaipur, India, from the live Carpetstory catalogue.",
+  "websiteUrl": "https://carpetstory.one",
+  "repository": { "url": "https://github.com/houseofdotone/carpetstory-mcp", "source": "github" },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/houseofdotone/carpetstory-mcp/releases/download/v1.0.0/carpetstory.mcpb",
+      "fileSha256": "418b34498d65f9ffb7ad7a869ed6a84d96a02e1fca6d4047fa844d37a7b86784",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

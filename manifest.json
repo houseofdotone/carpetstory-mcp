@@ -1,0 +1,24 @@
+{
+  "manifest_version": "0.2",
+  "name": "carpetstory",
+  "display_name": "Carpetstory",
+  "version": "1.0.0",
+  "description": "Search the Carpetstory catalogue of hand-knotted rugs made to order in Jaipur, India.",
+  "long_description": "Find rugs from the live Carpetstory catalogue by motif, mood, colour or collection, and get each rug's materials, knot density, lead time, image and product page. Read-only, no API key.",
+  "author": { "name": "Carpetstory", "url": "https://carpetstory.one" },
+  "homepage": "https://carpetstory.one",
+  "repository": { "type": "git", "url": "https://github.com/houseofdotone/carpetstory-mcp" },
+  "keywords": ["rugs", "carpets", "hand-knotted", "interior design", "jaipur"],
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": { "command": "node", "args": ["${__dirname}/index.js"], "env": {} }
+  },
+  "tools": [
+    { "name": "list_collections", "description": "List the current rug collections with materials, knot density and lead time." },
+    { "name": "search_rugs", "description": "Search rugs by words, collection or colour family." },
+    { "name": "get_rug", "description": "Full details for one rug." }
+  ],
+  "compatibility": { "runtimes": { "node": ">=18.0.0" } },
+  "license": "MIT"
+}

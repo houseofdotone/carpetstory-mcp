@@ -1,0 +1,6 @@
+test.js
+server.json
+.github/
+.gitignore
+*.mcpb
+package-lock.json

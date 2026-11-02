@@ -1,0 +1,20 @@
+{
+  "name": "carpetstory-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Carpetstory catalogue: search hand-knotted rugs made to order in Jaipur, India.",
+  "mcpName": "io.github.houseofdotone/carpetstory",
+  "type": "module",
+  "bin": { "carpetstory-mcp": "index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test.js" },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "rugs", "carpets", "hand-knotted", "interior-design", "jaipur", "carpetstory"],
+  "homepage": "https://carpetstory.one",
+  "repository": { "type": "git", "url": "git+https://github.com/houseofdotone/carpetstory-mcp.git" },
+  "author": "Carpetstory (https://carpetstory.one)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^3.25.76"
+  }
+}
