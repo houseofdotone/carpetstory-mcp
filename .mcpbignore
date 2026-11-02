@@ -4,3 +4,4 @@ server.json
 .gitignore
 *.mcpb
 package-lock.json
+glama.json
