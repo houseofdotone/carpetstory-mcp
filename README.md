@@ -20,7 +20,15 @@ Ask things like:
 
 Every rug is made to order in any size. Pricing is by enquiry through the [enquiry page](https://carpetstory.one/en/inquiry), and designers and architects can use the [trade programme](https://carpetstory.one/en/trade).
 
-## Install
+## Connect
+
+**Hosted (no install):** add `https://carpetstory.one/mcp` as a remote MCP server (Streamable HTTP, no authentication).
+
+- **ChatGPT:** in Settings, open Connectors (or Apps), turn on Developer mode under Advanced, then create a connector with this URL and "No authentication".
+- **Claude (web and desktop):** Settings → Connectors → Add custom connector, and paste the URL.
+- **Claude Code:** `claude mcp add --transport http carpetstory https://carpetstory.one/mcp`
+
+## Install locally
 
 **Claude Desktop:** download `carpetstory.mcpb` from the [latest release](https://github.com/houseofdotone/carpetstory-mcp/releases/latest) and open it.
 
